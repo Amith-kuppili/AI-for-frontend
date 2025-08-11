@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom utilities */
+:root{
+  --teal: #0AB6BC;
+  --deep-green: #045C43;
+  --light-text: #F6F6F6;
+  --deep-navy: #021B23;
+}
+
+html,body,#__next{
+  height:100%;
+}
+body{
+  background:#000;
+  color:var(--light-text);
+  -webkit-font-smoothing:antialiased;
+  -moz-osx-font-smoothing:grayscale;
+}
